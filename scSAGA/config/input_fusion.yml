@@ -1,0 +1,40 @@
+anchor: "rna1"
+
+datasets:
+  - name: "rna1"
+    modality: "rna"
+    counts: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/multimodal_ot/rna_normalized_counts.mtx"
+    barcodes: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/multimodal_ot/rna_barcodes.txt"
+    features: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/multimodal_ot/rna_features.txt"
+    pca: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/multimodal_ot/rna_pca_50.txt"
+
+  - name: "atac"
+    modality: "atac"
+    counts: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/multimodal_ot/atac_normalized_counts.mtx"
+    barcodes: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/multimodal_ot/atac_barcodes.txt"
+    features: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/multimodal_ot/atac_features.txt"
+    pca: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/multimodal_ot/atac_pca_50.txt"
+
+  # - name: "rna2"
+  #   modality: "rna"
+  #   counts: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/processed_arabidopsis/rna_normalized_counts.mtx"
+  #   barcodes: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/processed_arabidopsis/rna_barcodes.txt"
+  #   features: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/processed_arabidopsis/rna_features.txt"
+  #   pca: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/processed_arabidopsis/rna_pca_50.txt"
+  
+  - name: "rna2"
+    modality: "rna"
+    counts: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/pbmc_140k/rna_normalized_counts.mtx"
+    barcodes: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/pbmc_140k/rna_barcodes.txt"
+    features: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/pbmc_140k/rna_features.txt"
+    pca: "/storage/home/hcoda1/8/sbhattaram6/r-saluru8-0/large_sc_data/pbmc_140k/rna_pca_50.txt"
+output_dir: /storage/scratch1/8/sbhattaram6/saga_project_tmp
+
+# sketch_size: 5000
+# --- Hyperparameters for Accelerated Partial Pamona (APP) ---
+s_shared_cells: 11301
+M_samples: 2000
+alpha: 0.75
+S_iterations: 25
+gw_epsilon: 1e-5
+gw_reg: 0.001

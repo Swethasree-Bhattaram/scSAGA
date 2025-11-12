@@ -1,0 +1,12 @@
+{
+    "reportAny": false,
+    "reportExplicitAny": false,
+    "reportGeneralTypeIssues": false,
+    "reportMissingTypeStubs": false,
+    "reportOptionalMemberAccess": false,
+    "reportOptionalSubscript": false,
+    "reportUnknownMemberType": false,
+    "reportUnusedCallResult": false,
+    "reportUnknownVariableType": false,
+    "reportUnknownArgumentType": false
+}

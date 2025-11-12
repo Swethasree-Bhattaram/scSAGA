@@ -1,0 +1,27 @@
+name: scmint
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.13
+  - pip
+  #
+  - basedpyright
+  - devtools
+  - jupyter
+  - memory_profiler
+  - numpy
+  - pandas
+  - plotly
+  - pot
+  - pytorch
+  - pyyaml
+  - scikit-learn
+  - scipy
+  #
+  - pip:
+      - anndata
+      - geosketch
+      - scanpy
+      - scib
