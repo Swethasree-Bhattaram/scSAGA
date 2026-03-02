@@ -1,4 +1,4 @@
-# scSAGA -- single-cell SAmpled Gromov wAsserstein framework
+# scSAGA -- single-cell SAmpled Gromov wasserstein Alignment framework
 
 Scalable optimal transport based method for multimodal integration of RNA-seq and ATAC-seq data
 
